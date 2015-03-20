@@ -1,5 +1,7 @@
 #Accepted	binary_search	440 ms	Python
 def binarySearch(nums, target):
+	if len(nums) == 0:
+		return -1
 	start = 0
 	end = len(nums)-1
 	middle = 0
